@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --app-height: 100%;
+  --default-transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 24px;
+    height: var(--app-height);
+  }
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  min-height: var(--app-height);
+  position: relative;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: white;
+  border-bottom: 1px solid whitesmoke;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+
+/* .task-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 30px;
+  padding: 0;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid black;
+} */
+
+.task-item:focus {
+  outline: none;
+}
+
+.task-item {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+  border: none;
+}
+
+.task-button {
+  display: none;
+}
+
+.task-remove {
+  display: none;
+  background-color: red;
+}
+
+.task-container {
+  position: float;
+}
+
+#input {
+  display: none;
+  /* if set to none, sticky works. If set to hidden, it doesn't. */
+}
+
+.material-icons {
+  font-size: 1em;
+}
+
+#new-todo {
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+}

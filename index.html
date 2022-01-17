@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timely</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Dosis:wght@200;300;400&family=Fredoka+One&family=Lato:wght@700&family=Lobster&family=Poppins&family=Rubik:wght@500&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <h1>Today</h1>
+    </header>
+
+    <main id="content">
+      <div class="task-container"></div>
+      <form id="inputForm" class="task-div">
+        <input
+          type="text"
+          id="input"
+          class="task-item"
+          placeholder="Add New Task"
+        />
+        <button class="task-button" type="submit">Add</button>
+      </form>
+      <div id="new-todo">
+        <span class="material-icons md-36">add_circle</span>
+        New Todo
+      </div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>

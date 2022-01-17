@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\vanilla-todolist"
+		},
+		{
+			"path": "..\\..\\gmessenger"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Timely"
+	}
+}
